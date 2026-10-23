@@ -1,10 +1,10 @@
-# GameDex 🎮
+# GameDex 
 
 O GameDex é um aplicativo Android para explorar um catálogo de jogos. Ele foi desenvolvido para colocar em prática conceitos modernos de desenvolvimento mobile nativo, focando puramente na criação de interfaces e fluxos de navegação.
 
 Este projeto foi construído como parte de uma avaliação acadêmica (AP2). Por conta das diretrizes do projeto, ele não utiliza banco de dados local (como Room) ou chamadas de API (como Retrofit). Todos os dados dos jogos estão armazenados de forma estática no próprio código.
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
 *   **Catálogo de Jogos:** Lista principal com capas, categorias, ano de lançamento e plataformas.
 *   **Filtros por Gênero:** Filtre rapidamente a lista por categorias como RPG, Metroidvania, Ação e Aventura, entre outras.
@@ -19,7 +19,7 @@ Este projeto foi construído como parte de uma avaliação acadêmica (AP2). Por
 *   **Coil:** Para o carregamento assíncrono das imagens.
 *   **Material Design 3:** Base para a estrutura visual, adaptado com uma paleta de cores customizada escura ("Neon Slate").
 
-## 📱 Como rodar o projeto
+## Como rodar o projeto
 
 1. Clone este repositório na sua máquina.
 2. Abra a pasta do projeto no **Android Studio**.
