@@ -12,7 +12,6 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.CalendarMonth
-import androidx.compose.material.icons.filled.Devices
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.ElevatedCard
 import androidx.compose.material3.Icon
@@ -84,7 +83,7 @@ fun GameCard(
             ) {
                 InfoItem(icon = Icons.Filled.CalendarMonth, text = game.releaseYear.toString())
                 InfoItem(
-                    icon = Icons.Filled.Devices,
+                    icon = null,
                     text = game.platforms.joinToString(" • "),
                     modifier = Modifier.weight(1f, fill = false)
                 )
@@ -95,18 +94,20 @@ fun GameCard(
 
 @Composable
 private fun InfoItem(
-    icon: ImageVector,
+    icon: ImageVector?,
     text: String,
     modifier: Modifier = Modifier
 ) {
     Row(modifier = modifier, verticalAlignment = Alignment.CenterVertically) {
-        Icon(
-            imageVector = icon,
-            contentDescription = null,
-            tint = MaterialTheme.colorScheme.primary,
-            modifier = Modifier.size(16.dp)
-        )
-        Spacer(Modifier.width(4.dp))
+        if (icon != null) {
+            Icon(
+                imageVector = icon,
+                contentDescription = null,
+                tint = MaterialTheme.colorScheme.primary,
+                modifier = Modifier.size(16.dp)
+            )
+            Spacer(Modifier.width(4.dp))
+        }
         Text(
             text = text,
             style = MaterialTheme.typography.bodySmall,
