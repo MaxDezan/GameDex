@@ -11,7 +11,7 @@ Este projeto foi construído como parte de uma avaliação acadêmica (AP2). Por
 *   **Tela de Detalhes:** Informações completas sobre o jogo selecionado, incluindo sinopse, desenvolvedora, nota e um visual imersivo.
 *   **Imagens Reais:** Carregamento de capas e banners direto da internet.
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 *   **Kotlin**
 *   **Jetpack Compose:** Para toda a construção da interface (UI declarativa).
