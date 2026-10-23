@@ -25,3 +25,6 @@ Este projeto foi construído como parte de uma avaliação acadêmica (AP2). Por
 2. Abra a pasta do projeto no **Android Studio**.
 3. Aguarde o Gradle sincronizar as dependências automaticamente.
 4. Execute o app em um emulador ou dispositivo físico (botão de Run ou `Shift + F10`).
+
+## Link Dani
+[Abrir no Google Drive](https://drive.google.com/file/d/1_ZwdUfP9O4RdPBXIQu-n_Ec4yd7pmPeg/view?usp=sharing)
